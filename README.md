@@ -9,19 +9,21 @@
 
 ## 📌 Executive Summary
 
-This repository contains the complete implementation, exploratory analysis, and submission deliverables for the **Level 1 Internship Project: Student Performance Analysis** carried out for **Cognevance Technology**.
+This repository contains the complete execution, data processing pipeline, exploratory findings, and deliverables for the **Level 1 Internship Project: Student Performance Analysis** conducted for **Cognevance Technology**.
 
-The primary objective of this project is to conduct an end-to-end Exploratory Data Analysis (EDA) on student performance metrics. By evaluating key academic determinants—including **weekly study hours**, **daily sleep duration**, **test preparation completion**, and **socio-demographic backgrounds**—this project extracts actionable insights to assist educators in improving overall academic outcomes and identifying struggling students early.
+The goal of this project is to execute an end-to-end Exploratory Data Analysis (EDA) on student performance metrics. By analyzing variables such as **weekly study hours**, **daily sleep duration**, **test preparation course completion**, and **socio-demographic attributes**, this analysis uncovers key patterns that drive academic success and helps educators identify underperforming students early.
 
 ---
 
-## 📁 Repository Structure
+## 📁 Repository Structure & File Overview
 
 ```text
 cognevance_student_performance_analysis/
 │
-├── cleaned_student_data.csv          # Preprocessed dataset (imputed values & feature engineered)
-├── Student_Performance.ipynb         # Executable Google Colab / Jupyter Notebook with full EDA pipeline
-├── student_performance_dashboard.png # High-resolution exported 4-panel visual dashboard
-├── Project_Report.md                 # Executive report detailing methodology, findings & recommendations
-└── README.md                         # Comprehensive documentation and setup guide
+├── Project 1 report.pdf                 # Formal comprehensive project report (PDF)
+├── cleaned_student_data.csv             # Baseline dataset with imputed missing values
+├── processed_student_data.csv           # Feature engineered dataset (Total/Average scores & Pass/Fail status)
+├── student_performance_charts.png       # Multi-panel analytical visualization dashboard
+├── student_perfromance_anylasis.ipynb    # Executable Google Colab / Python source code notebook
+├── task5_relationship_plot.png          # Correlation scatter plot mapping study effort vs. average scores
+└── README.md                            # Complete repository overview and documentation guide
